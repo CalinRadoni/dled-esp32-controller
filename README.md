@@ -3,14 +3,20 @@
 
 Efficiency, hardware control for digital LEDs and Wi-Fi communications - these are just some of the caracteristics of this controller.
 
+It is designed to control digital LEDS like:
+
+- WS2812, WS2812B, ... (*aka* NeoPixel) and derivatives like SK6812
+- APA102 (*aka* DotStar) and derivatives like SK9822
+
 **Status:** *this is work in progress !*
 
 ## Features
 
-- using the ESP32's RMT peripheral, the controller is able to drive digital LEDs like: WS2812, WS2812B, WS2812C, WS2812S, WS2813, WS2815, WS2812D, etc.
+- using the ESP32's RMT peripheral, the controller is able to drive two strips of digital LEDs like: WS2812, WS2812B, WS2812C, WS2812S, WS2813, WS2815, WS2812D, etc.
+- using the ESP32's HSPI peripheral, the controller is able to drive a strip of digital LEDs like APA102
+- two *real* logic level shifter circuits
 - the power supply for LEDs is controlled using a Power MOSFET
 - high efficiency synchronous buck converter
-- *real* logic level shifter
 - supply voltage supervisor
 
 ## Software
