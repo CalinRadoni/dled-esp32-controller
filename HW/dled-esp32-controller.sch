@@ -1325,9 +1325,9 @@ Wire Wire Line
 Wire Wire Line
 	10150 2200 9650 2200
 Text Label 9700 2200 0    50   ~ 0
-RTC10
+IO4
 Text Label 5000 2800 0    50   ~ 0
-RTC10
+IO4
 Wire Wire Line
 	4900 2800 5550 2800
 $EndSCHEMATC

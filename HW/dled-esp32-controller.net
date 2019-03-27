@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /data/Projects/PA/DLED-ESP32-Controller/HW/dled-esp32-controller.sch)
-    (date "Mi 27 mar 2019 22:46:06 +0200")
+    (date "Mi 27 mar 2019 23:13:58 +0200")
     (tool "Eeschema 5.0.2+dfsg1-1~bpo9+1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -531,7 +531,7 @@
       (node (ref J1) (pin 3))
       (node (ref U1) (pin 36))
       (node (ref R4) (pin 1)))
-    (net (code 13) (name /RTC10)
+    (net (code 13) (name /IO4)
       (node (ref U1) (pin 26))
       (node (ref J7) (pin 2)))
     (net (code 14) (name /25)
