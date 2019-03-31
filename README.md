@@ -16,6 +16,7 @@ It is designed to control digital LEDS like:
 - using the ESP32's HSPI peripheral, the controller is able to drive a strip of digital LEDs like APA102
 - two *real* logic level shifter circuits
 - the power supply for LEDs is controlled using a Power MOSFET
+- I2C and two general-purpose extension headers
 - high efficiency synchronous buck converter
 - supply voltage supervisor
 
@@ -46,6 +47,10 @@ See the __LICENSE-CC-BY-SA-4.0.txt__ file.
 
 ## Versions
 
+Hardware revision 9 is presented in the following rendered picture:
+
+![board-render](Docs/board-render-rev9.png)
+
 Hardware revision 8 is presented in the following rendered picture:
 
-![board-render](Docs/board-render.png)
+![board-render](Docs/board-render-rev8.png)

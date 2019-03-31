@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 32)
+    (drawings 33)
     (tracks 397)
     (zones 0)
     (modules 40)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.9)
+    (last_trace_width 0.35)
     (user_trace_width 0.35)
     (user_trace_width 0.6)
     (user_trace_width 0.64)
@@ -1496,6 +1496,9 @@
     )
   )
 
+  (gr_text rev.9 (at 31.25 88.5) (layer F.SilkS) (tstamp 5CA0D550)
+    (effects (font (size 1.2 1.2) (thickness 0.25)) (justify right))
+  )
   (gr_text 25 (at 34.25 76.8) (layer F.SilkS) (tstamp 5C9D39E1)
     (effects (font (size 1.2 1.2) (thickness 0.25)) (justify left))
   )
