@@ -47,6 +47,10 @@ See the __LICENSE-CC-BY-SA-4.0.txt__ file.
 
 ## Versions
 
+Hardware revision 10 is presented in the following rendered picture:
+
+![board-render](Docs/board-render-rev10.png)
+
 Hardware revision 9 is presented in the following rendered picture:
 
 ![board-render](Docs/board-render-rev9.png)
