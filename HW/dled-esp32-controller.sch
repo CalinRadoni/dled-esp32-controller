@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "dled-esp32-controller"
-Date "2019-03-27"
-Rev "9"
+Date "2019-04-02"
+Rev "10"
 Comp "Calin Radoni"
 Comment1 "https://github.com/CalinRadoni/dled-esp32-controller"
 Comment2 ""
@@ -828,7 +828,7 @@ U 1 1 5C86638B
 P 9400 1700
 F 0 "J2" H 9350 1900 60  0000 L CNN
 F 1 "PinsDbg" V 9500 1700 50  0000 C CNN
-F 2 "CalinConnectors:Pin_Header_Straight_1x03" H 9400 1800 60  0001 C CNN
+F 2 "CalinConnectors:Pin_Header_Straight_1x03_Cyan" H 9400 1800 60  0001 C CNN
 F 3 "" H 9400 1800 60  0000 C CNN
 	1    9400 1700
 	1    0    0    -1  
@@ -1204,7 +1204,7 @@ U 1 1 5C901D00
 P 9400 2200
 F 0 "J5" H 9400 2400 60  0000 C CNN
 F 1 "LEDcmd" V 9500 2200 50  0000 C CNN
-F 2 "CalinConnectors:Pin_Header_Straight_1x03" H 9400 2300 60  0001 C CNN
+F 2 "CalinConnectors:Pin_Header_Straight_1x03_Yellow" H 9400 2300 60  0001 C CNN
 F 3 "" H 9400 2300 60  0000 C CNN
 	1    9400 2200
 	1    0    0    -1  
