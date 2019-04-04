@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "dled-esp32-controller"
 Date "2019-04-02"
-Rev "10"
+Rev "11"
 Comp "Calin Radoni"
 Comment1 "https://github.com/CalinRadoni/dled-esp32-controller"
 Comment2 ""
@@ -592,8 +592,8 @@ $Comp
 L calin:InductorFB L1
 U 1 1 5C1BC1CD
 P 6300 4300
-F 0 "L1" H 6150 4400 60  0000 L CNN
-F 1 "1uH" H 6300 4400 60  0000 L CNN
+F 0 "L1" H 6200 4400 39  0000 C CNN
+F 1 "2.2uH" H 6400 4400 39  0000 C CNN
 F 2 "CalinGeneric:ASPI-0530HI" H 6300 4300 60  0001 C CNN
 F 3 "" H 6300 4300 60  0001 C CNN
 	1    6300 4300
@@ -660,7 +660,7 @@ L calin:R R2
 U 1 1 5C205EF0
 P 4700 3300
 F 0 "R2" V 4780 3300 40  0000 C CNN
-F 1 "1k" V 4700 3300 40  0000 C CNN
+F 1 "330" V 4700 3300 40  0000 C CNN
 F 2 "CalinGeneric:R0805HS" V 4630 3300 30  0001 C CNN
 F 3 "" H 4700 3300 30  0000 C CNN
 	1    4700 3300
