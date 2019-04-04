@@ -47,6 +47,8 @@ See the __LICENSE-CC-BY-SA-4.0.txt__ file.
 
 ## Versions
 
+Hardware revision 11 differs from revision 10 just by the values of two components.
+
 Hardware revision 10 is presented in the following rendered picture:
 
 ![board-render](Docs/board-render-rev10.png)
