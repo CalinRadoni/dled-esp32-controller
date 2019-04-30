@@ -1,31 +1,17 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_C
-#
-DEF Device_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # calin_BD48K
 #
 DEF calin_BD48K U 0 40 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
 F1 "calin_BD48K" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "" -100 100 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+F4 "ROHM Semiconductor" 0 300 50 H I C CNN "manufacturer"
+F5 "BD48K" 0 350 50 H I C CNN "part-number"
+F6 "Standard CMOS Voltage Detector IC - Open Drain" 0 400 50 H I C CNN "characteristics"
+F7 "SSOP3 (SOT23-3)" 0 450 50 H I C CNN "package"
 $FPLIST
  SOT-23-5
  SOT-25
@@ -38,6 +24,28 @@ X VDD 3 -300 100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# calin_C
+#
+DEF calin_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "calin_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # calin_CS_2
 #
 DEF calin_CS_2 J 0 40 Y N 1 F N
@@ -45,29 +53,16 @@ F0 "J" -100 0 60 V V C CNN
 F1 "calin_CS_2" 100 0 50 V V C CNN
 F2 "" 0 50 60 H V C CNN
 F3 "" 0 50 60 H V C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
 DRAW
 S -50 100 50 -100 0 1 0 N
 S -20 -30 20 -70 0 1 0 F
 S -20 70 20 30 0 1 0 F
 P 2 0 1 0 -50 0 50 0 N
 X 1 1 0 200 150 D 25 25 1 1 P
-X 2 2 0 -200 150 U 25 25 1 1 P
-ENDDRAW
-ENDDEF
-#
-# calin_CS_2pwr
-#
-DEF calin_CS_2pwr J 0 40 Y N 1 F N
-F0 "J" -100 0 60 V V C CNN
-F1 "calin_CS_2pwr" 100 0 50 V V C CNN
-F2 "" 0 50 60 H V C CNN
-F3 "" 0 50 60 H V C CNN
-DRAW
-S -50 100 50 -100 0 1 0 N
-S -20 -30 20 -70 0 1 0 F
-S -20 70 20 30 0 1 0 F
-P 2 0 1 0 -50 0 50 0 N
-X 1 1 0 200 150 D 25 25 1 1 w
 X 2 2 0 -200 150 U 25 25 1 1 P
 ENDDRAW
 ENDDEF
@@ -79,6 +74,10 @@ F0 "J" 0 200 60 H V C CNN
 F1 "calin_CS_3" 100 0 50 V V C CNN
 F2 "" 0 100 60 H V C CNN
 F3 "" 0 100 60 H V C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
 DRAW
 S -50 150 50 -150 0 1 0 N
 S -20 -80 20 -120 0 1 0 F
@@ -98,6 +97,10 @@ F0 "J" 0 250 60 H V C CNN
 F1 "calin_CS_4" 100 0 50 V V C CNN
 F2 "" 0 150 60 H V C CNN
 F3 "" 0 150 60 H V C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
 DRAW
 S -50 200 50 -200 0 1 0 N
 S -20 -130 20 -170 0 1 0 F
@@ -119,6 +122,10 @@ F0 "J" 0 300 60 H V C CNN
 F1 "calin_CS_5" 100 0 50 V V C CNN
 F2 "" 0 200 60 H V C CNN
 F3 "" 0 200 60 H V C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
 DRAW
 S -50 250 50 -250 0 1 0 N
 S -20 -180 20 -220 0 1 0 F
@@ -142,6 +149,10 @@ F0 "U" 0 600 60 H V C CNN
 F1 "calin_ESP-WROOM-32" 0 -100 60 V V C CNN
 F2 "" 0 -150 60 H I C CNN
 F3 "" 0 -150 60 H I C CNN
+F4 "Espressif" 0 300 50 H I C CNN "manufacturer"
+F5 "ESP32-WROOM-32" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
 DRAW
 S -700 1050 700 -750 0 1 0 f
 P 2 0 1 0 -700 800 700 800 N
@@ -222,6 +233,10 @@ F0 "Q" 50 210 60 H V R CNN
 F1 "calin_IRLML2502" 80 -210 60 H V R CNN
 F2 "" -10 0 60 H V C CNN
 F3 "" -10 0 60 H V C CNN
+F4 "International Rectifier" 0 300 50 H I C CNN "manufacturer"
+F5 "IRLML2502GPbF" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "SOT23-3" 0 450 50 H I C CNN "package"
 ALIAS BSS138
 $FPLIST
  SOT-23-calin
@@ -252,6 +267,10 @@ F0 "L" 0 100 60 H V C CNN
 F1 "calin_InductorFB" 0 -100 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
 DRAW
 S -110 40 110 -40 0 1 0 F
 X 1 1 -200 0 89 R 50 50 1 1 P
@@ -266,6 +285,10 @@ F0 "D" 0 100 50 H V C CNN
 F1 "calin_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
 DRAW
 P 2 0 1 8 -50 -50 -50 50 N
 P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
@@ -283,6 +306,10 @@ F0 "R" 80 0 40 V V C CNN
 F1 "calin_R" 7 1 40 V V C CNN
 F2 "" -70 0 30 V V C CNN
 F3 "" 0 0 30 H V C CNN
+F4 "*" 0 300 50 H I C CNN "manufacturer"
+F5 "*" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "*" 0 450 50 H I C CNN "package"
 $FPLIST
  R?
  SM0603
@@ -304,6 +331,10 @@ F0 "U" 0 200 60 H V C CNN
 F1 "calin_SN74LV1T34" 0 -200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
+F4 "Texas Instruments" 0 300 50 H I C CNN "manufacturer"
+F5 "SN74LV1T34DBVR" 0 350 50 H I C CNN "part-number"
+F6 "Single Power Supply Single Buffer GATE CMOS Logic Level Shifter" 0 400 50 H I C CNN "characteristics"
+F7 "SOT23-5" 0 450 50 H I C CNN "package"
 $FPLIST
  SOT23-5
 $ENDFPLIST
@@ -324,6 +355,10 @@ F0 "Q" -200 250 60 H V C CNN
 F1 "calin_STD46P4LLF6" 250 100 60 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
+F4 "STMicroelectronics" 0 300 50 H I C CNN "manufacturer"
+F5 "STD46P4LLF6" 0 350 50 H I C CNN "part-number"
+F6 "*" 0 400 50 H I C CNN "characteristics"
+F7 "DPAK (TO-252)" 0 450 50 H I C CNN "package"
 ALIAS FDD4685
 $FPLIST
  DPAK
@@ -362,8 +397,12 @@ ENDDEF
 DEF calin_TLV62569DBV U 0 40 Y Y 1 F N
 F0 "U" 0 200 60 H V C CNN
 F1 "calin_TLV62569DBV" 0 -200 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+F2 "" -100 100 60 H I C CNN
+F3 "" 0 200 60 H I C CNN
+F4 "Texas Instruments" 0 300 50 H I C CNN "manufacturer"
+F5 "TLV62569DBV" 0 350 50 H I C CNN "part-number"
+F6 "Step-Down Converter 2A 1.5MHz Iq=35uA" 0 400 50 H I C CNN "characteristics"
+F7 "SOT23-5" 0 450 50 H I C CNN "package"
 $FPLIST
  SOT23-5
 $ENDFPLIST
@@ -433,6 +472,19 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
