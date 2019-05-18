@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "dled-esp32-controller"
-Date "2019-05-01"
+Date "2019-05-18"
 Rev "15"
 Comp "Calin Radoni"
 Comment1 "https://github.com/CalinRadoni/dled-esp32-controller"
@@ -152,10 +152,10 @@ F 0 "C7" V 4900 4750 50  0000 L CNN
 F 1 "10uF/10V/1mOhm" V 5000 4700 39  0000 C CNN
 F 2 "CalinGeneric:C0805HS" H 4888 4550 50  0001 C CNN
 F 3 "" H 4850 4700 50  0000 C CNN
-F 4 "10 µF / 16 V / X7R / ESR: 1 mΩ" H 0   0   50  0001 C CNN "characteristics"
+F 4 "10 µF / 10 V / X5R / ESR: 1 mΩ" H 0   0   50  0001 C CNN "characteristics"
 F 5 "Taiyo Yuden" H 0   0   50  0001 C CNN "manufacturer"
 F 6 "0805" H 0   0   50  0001 C CNN "package"
-F 7 "EMK212BB7106KG-T" H 0   0   50  0001 C CNN "part-number"
+F 7 "EMK212BJ106KG-T" H 0   0   50  0001 C CNN "part-number"
 	1    4850 4700
 	1    0    0    -1  
 $EndComp
@@ -841,7 +841,7 @@ F 3 "" H 5450 1550 30  0000 C CNN
 F 4 "2K" H 0   0   50  0001 C CNN "characteristics"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "manufacturer"
 F 6 "0805" H 0   0   50  0001 C CNN "package"
-F 7 "ERJ6ENF2001V" H 0   0   50  0001 C CNN "part-number"
+F 7 "ERJ-6ENF2201V" H 0   0   50  0001 C CNN "part-number"
 	1    5450 1550
 	-1   0    0    1   
 $EndComp
@@ -856,7 +856,7 @@ F 3 "" H 5650 1550 30  0000 C CNN
 F 4 "2K" H 0   0   50  0001 C CNN "characteristics"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "manufacturer"
 F 6 "0805" H 0   0   50  0001 C CNN "package"
-F 7 "ERJ6ENF2001V" H 0   0   50  0001 C CNN "part-number"
+F 7 "ERJ-6ENF2201V" H 0   0   50  0001 C CNN "part-number"
 	1    5650 1550
 	-1   0    0    1   
 $EndComp
@@ -1095,7 +1095,7 @@ F 3 "" H 6950 1900 50  0001 C CNN
 F 4 "Standard CMOS Voltage Detector IC - Open Drain" H 0   0   50  0001 C CNN "characteristics"
 F 5 "ROHM Semiconductor" H 0   0   50  0001 C CNN "manufacturer"
 F 6 "SSOP3 (SOT23-3)" H 0   0   50  0001 C CNN "package"
-F 7 "BD48K" H 0   0   50  0001 C CNN "part-number"
+F 7 "BD48K30G-TL" H 0   0   50  0001 C CNN "part-number"
 	1    6950 1900
 	1    0    0    -1  
 $EndComp
