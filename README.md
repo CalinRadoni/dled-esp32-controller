@@ -1,14 +1,20 @@
 
 # ESP32 controller for digital LEDs
 
+## Note
+
+This repository is archived because I am building a version with better integration
+in the [pax-devices](https://github.com/CalinRadoni/pax-devices) repository.
+
+## Description
+
+
 Efficiency, hardware control for digital LEDs and Wi-Fi communications - these are just some of the caracteristics of this controller.
 
 It is designed to control digital LEDS like:
 
 - WS2812, WS2812B, ... (*aka* NeoPixel) and derivatives like SK6812
 - APA102 (*aka* DotStar) and derivatives like SK9822
-
-**Status:** *this is work in progress !*
 
 ## Features
 
